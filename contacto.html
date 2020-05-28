@@ -20,21 +20,21 @@
 
     <main class="contenedor seccion contenido-centrado">
 
-        <form class="contacto" action="">
+        <form class="contacto" action="enviar.php">
             <fieldset>
 
                 <legend>Informacion Personal</legend>
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="Tu nombre">
+                <input type="text" id="nombre" placeholder="Tu nombre" name="nombre">
 
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" placeholder="Tu apellido">
+                <input type="text" id="apellido" placeholder="Tu apellido" name="apellido">
 
                 <label for="E-mail">E-mail:</label>
-                <input type="email" id="E-mail" placeholder="Tu correo electronico" required>
+                <input type="email" id="E-mail" placeholder="Tu correo electronico" required name="email">
 
                 <label for="text">Asunto:</label>
-                <input type="text" id="Mensaje" placeholder="Asunto" required>
+                <input type="text" id="Mensaje" placeholder="Asunto" required name="asunto">
 
                 <label for="Mensaje">Mensaje:</label>
                 <textarea name="Mensaje" id="Mensaje"></textarea>
